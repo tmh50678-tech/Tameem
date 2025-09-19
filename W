@@ -1,4 +1,0 @@
-python -m venv .venv && . .venv/bin/activate
-pip install -r backend/requirements.txt
-cp backend/.env.example backend/.env
-uvicorn backend.main:app --reload
